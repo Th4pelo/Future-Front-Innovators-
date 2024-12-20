@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Front Innovators</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #ffffff;
+        color: #333;
+        text-align: center;
+      }
+
+      header {
+        background-color: #ffffff;
+        color: #030303;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      header img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+      }
+
+      header h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+      }
+
+      .video-container {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+      }
+
+      .video-container video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .slogan {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+        margin: 20px 0;
+        color: #0079fa;
+        animation: fadeIn 10s ease-in-out;
+      }
+
+      .cta-button {
+        background-color: #007bff;
+        padding: 15px 30px;
+        font-size: 1rem;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+      }
+
+      nav {
+        margin: 20px 0;
+        background: #f8f9fa;
+        padding: 10px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #007bff;
+        font-size: 1rem;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      .projects-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .project-card {
+        background: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        width: 300px;
+      }
+
+      .project-card:hover {
+        transform: scale(1.05);
+      }
+
+      .project-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .project-card h3 {
+        font-size: 1.3rem;
+        margin: 10px;
+        color: #333;
+      }
+
+      .explore-button {
+        background-color: #0111f5;
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+      }
+
+      footer {
+        background-color: #000;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      footer .socials a {
+        color: #fff;
+        margin: 0 10px;
+        font-size: 1.2rem;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="future front logo01.png" alt="Future Front Innovators Logo" />
+      <h1>Future Front Innovators</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about us.html">About Us</a>
+      <a href="contacts.html">Contact Us</a>
+    </nav>
+
+    <div class="video-container">
+      <video autoplay muted loop>
+        <source src="ffi video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="slogan">
+      From Passion to Structure: <br />
+      Building Beyond Boundaries
+    </div>
+
+    <section class="section projects" id="projects">
+      <h2>Our Projects</h2>
+      <div class="projects-gallery">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1" />
+          <h3>Modern Family House</h3>
+        </div>
+        <div class="project-card">
+          <img src="image24.jpg" alt="Project 2" />
+          <h3>Limpopo House Plan</h3>
+        </div>
+        <div class="project-card">
+          <img src="pic3456feg.jpg" alt="Project 3" />
+          <h3>Gazebo</h3>
+        </div>
+      </div>
+      <a href="more-projects.html" class="explore-button"
+        >Explore More Projects</a
+      >
+    </section>
+    
+      <div class="projects-gallery">
+        <div class="project-card">
+         
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Future Front Innovators. All Rights Reserved.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/futurefrontinnovatorspty/"
+          >Instagram</a
+        >
+        <a href="https://www.facebook.com/profile.php?id=61555794677487"
+          >Facebook</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
